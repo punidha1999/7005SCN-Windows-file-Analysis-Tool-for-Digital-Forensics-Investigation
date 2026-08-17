@@ -1,0 +1,57 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build output
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Generated forensic reports and scan exports
+forensiscan_report*.html
+forensiscan_report*.pdf
+metadata_*.csv
+hashes_*.csv
+signatures_*.csv
+timeline_*.csv
+entropy_*.csv
+
+# Local investigator hash sets / case material
+hashsets/
+cases/
+evidence/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
